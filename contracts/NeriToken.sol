@@ -9,9 +9,9 @@ import "./FreezableToken.sol";
  * @title NeriToken
  */
 contract NeriToken is FreezableToken, PausableToken, BurnableToken {
-    string public name = "Neritoken";
-    string public symbol = "NERI";
-    uint8 public decimals = 18;
+    string public constant name = "Neritoken";
+    string public constant symbol = "NERI";
+    uint8 public constant decimals = 18;
 
     uint256 public constant INITIAL_SUPPLY = 100 ether; //To change
 
@@ -20,7 +20,7 @@ contract NeriToken is FreezableToken, PausableToken, BurnableToken {
      */
     function NeriToken() public {
         totalSupply_ = INITIAL_SUPPLY;
-        balances[msg.sender] = INITIAL_SUPPLY;
-        Transfer(0x0, msg.sender, INITIAL_SUPPLY);
+        balances[msg.sender] = totalSupply_;
+        Transfer(0x0, msg.sender, totalSupply_);
     }
 }
