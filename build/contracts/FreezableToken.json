@@ -382,7 +382,7 @@
         "id": 228,
         "nodeType": "ImportDirective",
         "scope": 350,
-        "sourceUnit": 1105,
+        "sourceUnit": 1151,
         "src": "28:29:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -393,7 +393,7 @@
         "id": 229,
         "nodeType": "ImportDirective",
         "scope": 350,
-        "sourceUnit": 599,
+        "sourceUnit": 607,
         "src": "59:23:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -407,10 +407,10 @@
               "id": 230,
               "name": "StandardToken",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1104,
+              "referencedDeclaration": 1150,
               "src": "151:13:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_StandardToken_$1104",
+                "typeIdentifier": "t_contract$_StandardToken_$1150",
                 "typeString": "contract StandardToken"
               }
             },
@@ -425,10 +425,10 @@
               "id": 232,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 598,
+              "referencedDeclaration": 606,
               "src": "166:7:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$598",
+                "typeIdentifier": "t_contract$_Ownable_$606",
                 "typeString": "contract Ownable"
               }
             },
@@ -441,8 +441,8 @@
           95,
           193,
           225,
-          598,
-          1104
+          606,
+          1150
         ],
         "contractKind": "contract",
         "documentation": "@title FreezableToken\r",
@@ -450,8 +450,8 @@
         "id": 349,
         "linearizedBaseContracts": [
           349,
-          598,
-          1104,
+          606,
+          1150,
           95,
           193,
           225
@@ -748,7 +748,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 572,
+                  "referencedDeclaration": 580,
                   "src": "336:9:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -983,7 +983,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 572,
+                  "referencedDeclaration": 580,
                   "src": "486:9:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1254,7 +1254,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1119,
+                      "referencedDeclaration": 1165,
                       "src": "815:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1379,7 +1379,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1142,
+                        "referencedDeclaration": 1188,
                         "src": "1039:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_FreezableToken_$349",
@@ -1436,7 +1436,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1116,
+                      "referencedDeclaration": 1162,
                       "src": "944:3:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -1648,7 +1648,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1142,
+                        "referencedDeclaration": 1188,
                         "src": "1261:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_FreezableToken_$349",
@@ -1662,7 +1662,7 @@
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 958,
+                      "referencedDeclaration": 1004,
                       "src": "1261:18:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -1853,7 +1853,7 @@
             "scope": 349,
             "src": "1082:225:4",
             "stateMutability": "nonpayable",
-            "superFunction": 958,
+            "superFunction": 1004,
             "visibility": "public"
           }
         ],
@@ -1890,7 +1890,7 @@
         "id": 228,
         "nodeType": "ImportDirective",
         "scope": 350,
-        "sourceUnit": 1105,
+        "sourceUnit": 1151,
         "src": "28:29:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1901,7 +1901,7 @@
         "id": 229,
         "nodeType": "ImportDirective",
         "scope": 350,
-        "sourceUnit": 599,
+        "sourceUnit": 607,
         "src": "59:23:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1915,10 +1915,10 @@
               "id": 230,
               "name": "StandardToken",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1104,
+              "referencedDeclaration": 1150,
               "src": "151:13:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_StandardToken_$1104",
+                "typeIdentifier": "t_contract$_StandardToken_$1150",
                 "typeString": "contract StandardToken"
               }
             },
@@ -1933,10 +1933,10 @@
               "id": 232,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 598,
+              "referencedDeclaration": 606,
               "src": "166:7:4",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$598",
+                "typeIdentifier": "t_contract$_Ownable_$606",
                 "typeString": "contract Ownable"
               }
             },
@@ -1949,8 +1949,8 @@
           95,
           193,
           225,
-          598,
-          1104
+          606,
+          1150
         ],
         "contractKind": "contract",
         "documentation": "@title FreezableToken\r",
@@ -1958,8 +1958,8 @@
         "id": 349,
         "linearizedBaseContracts": [
           349,
-          598,
-          1104,
+          606,
+          1150,
           95,
           193,
           225
@@ -2256,7 +2256,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 572,
+                  "referencedDeclaration": 580,
                   "src": "336:9:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2491,7 +2491,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 572,
+                  "referencedDeclaration": 580,
                   "src": "486:9:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2762,7 +2762,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1119,
+                      "referencedDeclaration": 1165,
                       "src": "815:7:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2887,7 +2887,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1142,
+                        "referencedDeclaration": 1188,
                         "src": "1039:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_FreezableToken_$349",
@@ -2944,7 +2944,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1116,
+                      "referencedDeclaration": 1162,
                       "src": "944:3:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -3156,7 +3156,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1142,
+                        "referencedDeclaration": 1188,
                         "src": "1261:5:4",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_FreezableToken_$349",
@@ -3170,7 +3170,7 @@
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 958,
+                      "referencedDeclaration": 1004,
                       "src": "1261:18:4",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -3361,7 +3361,7 @@
             "scope": 349,
             "src": "1082:225:4",
             "stateMutability": "nonpayable",
-            "superFunction": 958,
+            "superFunction": 1004,
             "visibility": "public"
           }
         ],
@@ -3377,5 +3377,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-25T17:55:50.589Z"
+  "updatedAt": "2018-03-27T13:38:59.792Z"
 }

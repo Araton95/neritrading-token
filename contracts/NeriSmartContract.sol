@@ -15,9 +15,10 @@ contract NeriSmartContract is Ownable {
 
     address[] addresses;
 
-    function NeriSmartContract(address _contractAddress) public {
+    function NeriSmartContract(address _contractAddress) Ownable() public {
         require(_contractAddress != 0x0);
         token = NeriToken(_contractAddress);
+        token.addDistributionContract(this);
     }
 
     function() public payable {

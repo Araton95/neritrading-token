@@ -286,14 +286,29 @@ contract Pausable is Ownable {
     event Pause();
     event Unpause();
 
+    address public distributionContract;
+
+    bool distributionContractAdded;
     bool public paused = false;
 
+    /**
+     * @dev Add distribution smart contract address
+    */
+    function addDistributionContract(address _contract) external {
+        require(_contract != address(0));
+        require(distributionContractAdded == false);
+
+        distributionContract = _contract;
+        distributionContractAdded = true;
+    }
 
     /**
      * @dev Modifier to make a function callable only when the contract is not paused.
      */
     modifier whenNotPaused() {
-        require(!paused);
+        if(msg.sender != distributionContract) {
+            require(!paused);
+        }
         _;
     }
 
@@ -422,9 +437,10 @@ contract NeriSmartContract is Ownable {
 
     address[] addresses;
 
-    function NeriSmartContract(address _contractAddress) public {
+    function NeriSmartContract(address _contractAddress) Ownable() public {
         require(_contractAddress != 0x0);
         token = NeriToken(_contractAddress);
+        token.addDistributionContract(this);
     }
 
     function() public payable {
